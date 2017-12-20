@@ -154,11 +154,7 @@
         width: 900px; 
         margin: 0 auto;    
     }
-    section.focal h2{
-        width: 600px; 
-        margin: 0 auto;
-    }
-    section.focal p.author{
+    section.focal h2, section.focal p.author{
         width: 600px; 
         margin: 0 auto;
     }
@@ -311,13 +307,11 @@
         vertical-align: middle;
     }
     
-    section.content2 h4{
+    section.content2 h4, section.content2 li{
         font-size: 1.999rem;
     }
-    section.content2 li{
-        font-size: 1.999rem;
-    }
-    section.content2 p{
+   
+    section.content2 {
         font-size: 1.414rem;
         font-weight: 400;
     }
